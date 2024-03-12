@@ -1,0 +1,178 @@
+/* 1st main div */
+.nav-div-leftBox{
+    width: 209px;
+    height: 50px;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    }
+    
+    .section0{
+        background-color: #FFFFFF;
+        margin-bottom: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: relative;
+    z-index: 99999;
+    
+    }
+    
+    .nav-div{
+        z-index: 9999999;
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    
+    .logo{
+    display: flex;
+    align-items: center;
+    }
+    
+    .nav-div-leftbox-nameDiv{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* border: 1px solid black; */
+    
+    }
+    
+    .nav-div-rightBox{
+        width: 107px;
+        height: 39px;
+        /* margin-right: 95px; */
+        border-radius: 5px;
+        /* border: 1px solid #003C6B; */
+        color: white;
+        font-size: medium;
+        background-color: rgb(0,60,107);
+        cursor: pointer;
+    }
+    
+
+    /* 2nd main div  */
+    .section1{
+        background-color: #F4F4F4;
+        /* height: 585px; */
+        position: relative;
+    }
+
+    .top-left-circle{
+        bottom: 65px;
+        position: relative;
+        width: 20.25rem;
+        height: 20.25rem;
+        border-radius: 50%;
+        /* border: 1px solid red; */
+        background: linear-gradient(#D9D9D9,#003C6B);
+    }
+
+    .bottom-left-circle{
+        width: 141px;
+        height: 141px;
+        border-radius: 50%;
+        /* border:1px solid red; */
+        position: relative;
+        left: 77px;
+        background: linear-gradient(#D9D9D9,#003C6B);
+        /* top: 110px; */
+    }
+
+    .bottom-right-circle{
+        border-radius: 50%;
+        /* border: 1px solid red; */
+        position: relative;
+        bottom: 110px;
+        width: 362px;
+        height: 362px;
+        background: linear-gradient(#D9D9D9,#003C6B);
+    }
+    .bottom-circles{
+        display: flex;
+        /* border: 1px solid green; */
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .big-div{
+        /* border: 1px solid green; */
+        position:absolute;
+        z-index: 999;
+        width: 1000px;
+        height: 500px;
+        left: 124px;
+        top: 125px;
+        border-radius: 25px;
+        backdrop-filter: blur(50px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+
+    .big-div-innerDiv1{
+        width: 70%;
+        height: 220px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .innerDiv1-login{
+        width: 50%;
+        /* border: 1px solid green; */
+        color: #003C6B;
+        font-size: 42px;
+        font-weight: 800;
+       
+    }
+
+    .innerDiv1-content{
+        /* border: 1px solid yellowgreen; */
+        width: 95%;
+        font-size: 21px;
+
+    }
+
+    .big-div-innerDiv2{
+        width: 422px;
+        height: 124px;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .signin-button{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 1px solid red; */
+        width: 280px;
+        height: 3rem;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #FFFFFF;
+        color: rgb(0,60,107);
+        cursor: pointer;
+        transition: box-shadow 0.3s, transform 0.3s ease-in-out;
+        border-radius: 5px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    .signin-button:hover{
+        transform: scale(1.05);
+    }
+
+    .signInDiv2{
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 12px;
+    }
